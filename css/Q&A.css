@@ -1,0 +1,33 @@
+.main-image {
+  background-image: url("../img/70C1C9E4-739B-4F85-AF6F-EE493EEAC839.jpg");
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.question {
+  margin-bottom: 80px;
+  border-bottom: 2px solid #eee;
+  line-height: 32px;
+}
+
+.question a {
+  text-decoration: none;
+  color: #a79324;
+}
+
+.answer dl {
+  margin-bottom: 60px;
+}
+
+.answer dd {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .question ul {
+    padding-left: 20px;
+  }
+}
